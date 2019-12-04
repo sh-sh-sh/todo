@@ -19,9 +19,9 @@ notifications:
       - sh265601@gmail.com
 
 before_deploy:
-  - zip -r springboot-webservice *
+  - zip -r todo *
   - mkdir -p deploy
-  - mv springboot-webservice.zip deploy/springboot-webservice.zip
+  - mv todo.zip deploy/todo.zip
 
 deploy:
   - provider: s3
