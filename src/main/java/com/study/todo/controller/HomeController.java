@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping
     public String home() {
-        return "호이횡";
+        return "아 좀 돼라";
     }
 }
